@@ -1,0 +1,251 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/*admin home*/
+
+.admin-home{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.admin-home a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: 700;
+    
+}
+
+
+.container{
+    /* background-color: darkslateblue; */
+    background-color: #12343b;
+
+    height: 15rem;
+    width: 19rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    transition: all 0.4s;
+}
+
+.container:hover{
+    background-color: lightskyblue;
+    color: #12343b;
+    border: 2px solid #12343b;
+}
+
+
+
+
+
+
+
+
+/*total users*/
+
+.totalUsers-main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: space-between; */
+    /* padding: 2rem; */
+    /* background-color: ;     */
+}
+
+
+.show-totalUsers{
+    /* margin-top: 2rem; */
+    width: 100%;
+    height: 100vh;
+    overflow: scroll;
+    /* background-color: rgb(84, 78, 123); */
+    /* background-color: rgb(80, 83, 90); */
+
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 4rem;
+    /* text-align: center; */
+}
+.show-totalUsers::-webkit-scrollbar{
+    display: none;
+}
+
+.show-totalUsers .totalUsers-title{
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 800;
+}
+
+.user-details{
+    background-color: white;
+    border-radius: 30px;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+
+.user-details p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    display: inline-block;
+    margin-bottom: 2rem;
+}
+
+.user-details h1{
+    display: inline-block;
+
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*admin updTE*/
+
+.update-main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 2rem; */
+    /* background-color: ;     */
+}
+
+
+.show-loan-reqs{
+    /* margin-top: 2rem; */
+    width: 60%;
+    /* background-color: rgb(84, 78, 123); */
+    /* background-color: #447c87; */
+
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 4rem;
+    /* text-align: center; */
+}
+
+.show-loan-reqs .title{
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 800;
+}
+
+.loan-details{
+    background-color: white;
+    border-radius: 30px;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+
+.loan-details p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    display: inline-block;
+    margin-bottom: 2rem;
+}
+
+.loan-details h1{
+    display: inline-block;
+
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+
+.loan-update{
+    position: fixed;
+    top: 30%;
+    left: 68%;
+}
+
+.loan-update form{
+    /* background-color: darkslateblue; */
+    background-color: #3c5765;
+
+    height: 15rem;
+    width: 25rem;
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    border-radius: 20px;
+    justify-content: center;
+    /* align-items: center; */
+    text-align: center;
+}
+
+.loan-update .Loan-Id{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.1rem;
+
+    /* flex-direction: column; */
+    /* width: 100%; */
+}
+.loan-update form input{
+    /* height: 2.7rem; */
+    width: 100%; 
+    padding: .7rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+
+.loan-update .btn{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.loan-update  button{
+    
+    padding: .5rem .8rem;
+    border-radius: 10px;
+    background-color:#fff;
+    border: none;
+    outline: none;
+    transition: all 0.5s;
+}
+
+.loan-update button:hover{
+    /* background-color:darkslateblue; */
+    background-color: #12343b;
+
+    border: 2px solid #fff;
+    color: #fff;
+
+}
+
+.Loan-Id{
+    
+}
